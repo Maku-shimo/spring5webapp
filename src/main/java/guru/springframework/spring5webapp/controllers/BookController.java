@@ -21,6 +21,6 @@ public class BookController {
         model.addAttribute("books", bookRepository.findAll());
 
         //имя представления view
-        return "book";
+        return "books";
     }
 }
